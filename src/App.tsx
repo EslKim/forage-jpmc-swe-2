@@ -50,7 +50,7 @@ class App extends Component<{}, IState> {
       });
       x++; 
       if (x > 1000) {
-        clearInterval(internal); 
+        clearInterval(interval);
       }
     }, 100); 
   }
